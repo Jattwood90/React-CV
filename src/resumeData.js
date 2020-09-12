@@ -72,6 +72,22 @@ let resumeData = {
         "link":"https://github.com/Jattwood90/Django-todo-app",
         "className":"fa fa-github"
       },
+      {
+        "name":"Udemy Web-Scraper",
+        "description":"Python script that scrapes the price of an Udemy course, and sends an email once the price is below £20. Requests, BeautifulSoup and smtplib modules used.",
+        "imgurl":"images/portfolio/udemy-1.svg",
+        "icon":"github",
+        "link":"https://github.com/Jattwood90/Python_Scripts/blob/master/udemy_price.py",
+        "className":"fa fa-github"
+      },
+      {
+        "name":"Flask CV App",
+        "description":"First version of CV site, created using Flask, uploaded to AWS via Zappa.",
+        "imgurl":"images/portfolio/flask.jpeg",
+        "icon":"github",
+        "link":"https://github.com/Jattwood90/Flask_CV_repo",
+        "className":"fa fa-github"
+      },
     ],
     "testimonials":[
       {
