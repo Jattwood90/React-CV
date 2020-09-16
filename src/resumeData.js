@@ -83,7 +83,7 @@ let resumeData = {
       {
         "name":"React CV App",
         "description":"This portfolio site! Made using React, and hosted via AWS.",
-        "imgurl":"images/portfolio/React.gif",
+        "imgurl":"images/portfolio/react.gif",
         "icon":"github",
         "link":"https://github.com/Jattwood90/React-CV",
         "className":"fa fa-github"
