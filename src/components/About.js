@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+import ScrollAnimation from 'react-animate-on-scroll';
+
 export default class About extends Component {
   render() {
     let resumeData = this.props.resumeData;
@@ -6,7 +8,9 @@ export default class About extends Component {
       <section id="about">
          <div className="row">
             <div className="three columns">
+            <ScrollAnimation animateIn="fadeIn">
                <img className="profile-pic"  src="images/Amsterdam Joe.jpg" alt="" />
+            </ScrollAnimation>
             </div>
             <div className="nine columns main-col">
                <h2>About Me</h2>

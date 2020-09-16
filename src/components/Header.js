@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+
 export default class Header extends Component {
   render() {
     let resumeData = this.props.resumeData;
@@ -18,7 +19,7 @@ export default class Header extends Component {
                <li><a className="smoothscroll" href="#contact">Contact</a></li>
             </ul>
          </nav>
-
+         
          <div className="row banner">
             <div className="banner-text">
                <h1 className="responsive-headline">{resumeData.name}</h1>
@@ -43,8 +44,8 @@ export default class Header extends Component {
          <p className="scrolldown">
             <a className="smoothscroll" href="#about"><i className="icon-down-circle"></i></a>
          </p>
-
       </header>
+
       </React.Fragment>
     );
   }

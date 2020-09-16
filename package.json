@@ -6,7 +6,9 @@
     "@fortawesome/fontawesome-svg-core": "^1.2.30",
     "@fortawesome/free-solid-svg-icons": "^5.14.0",
     "@fortawesome/react-fontawesome": "^0.1.11",
+    "animate.css": "^4.1.1",
     "react": "^16.6.0",
+    "react-animate-on-scroll": "^2.1.5",
     "react-dom": "^16.6.0",
     "react-scripts": "2.1.1",
     "vertical-timeline-component-react": "^1.2.4"
