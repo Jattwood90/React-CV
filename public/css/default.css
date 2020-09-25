@@ -542,63 +542,143 @@ input::-moz-focus-inner {
 
 /*  7. Forms  --------------------------------------------------------- */
 
-form { margin-bottom: 24px; }
-fieldset { margin-bottom: 24px; }
-
-input[type="text"],
-input[type="password"],
-input[type="email"],
-textarea,
-select {
-   display: block;
-   padding: 18px 15px;
-   margin: 0 0 24px 0;
-   border: 0;
-   outline: none;
-   vertical-align: middle;
-   min-width: 225px;
-	max-width: 100%;
-   font-size: 15px;
-   line-height: 24px;
-	color: #647373;
-	background: #D3D9D9;
-
+form {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-font-smoothing: antialiased;
+  -o-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
 }
 
-/* select { padding: 0;
-   width: 220px;
-   } */
-
-input[type="text"]:focus,
-input[type="password"]:focus,
-input[type="email"]:focus,
-textarea:focus {
-   color: #B3B7BC;
-	background-color: #3d4145;
+form body {
+  font-family: "Roboto", Helvetica, Arial, sans-serif;
+  font-weight: 100;
+  font-size: 12px;
+  line-height: 30px;
+  color: #777;
+  background: #4CAF50;
 }
 
-textarea { min-height: 220px; }
-
-label,
-legend {
-   font: 16px/24px 'opensans-bold', sans-serif;
-	margin: 12px 0;
-   color: #3d4145;
-   display: block;
-}
-label span,
-legend span {
-	color: #8B9798;
-   font: 14px/24px 'opensans-regular', sans-serif;
+.container {
+   font: 'opensans-semibold', sans-serif;
+  max-width: 400px;
+  width: 100%;
+  margin: 0 auto;
+  
 }
 
-input[type="checkbox"],
-input[type="radio"] {
-    font-size: 15px;
-    color: #737373;
+#contact input[type="text"],
+#contact input[type="email"],
+#contact input[type="tel"],
+#contact input[type="url"],
+#contact textarea,
+#contact button[type="submit"] {
+  font: 400 12px/16px'opensans-semibold', sans-serif;;
 }
 
-input[type="checkbox"] { display: inline; }
+#contact {
+  background: #F9F9F9;
+  padding: 25px;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+
+#contact h3 {
+   font: 25px/35px 'opensans-semibold', sans-serif;
+   text-transform: uppercase;
+   letter-spacing: 1px;
+   text-align: center;
+   margin-bottom: 20px;
+   color: #95A3A3;
+}
+
+
+fieldset {
+  border: medium none !important;
+  margin: 0 0 10px;
+  min-width: 100%;
+  padding: 0;
+  width: 100%;
+}
+
+#contact input[type="text"],
+#contact input[type="email"],
+#contact input[type="tel"],
+#contact input[type="url"],
+#contact textarea {
+  width: 100%;
+  border: 1px solid #ccc;
+  background: #FFF;
+  margin: 0 0 5px;
+  padding: 10px;
+}
+
+#contact input[type="text"]:hover,
+#contact input[type="email"]:hover,
+#contact input[type="tel"]:hover,
+#contact input[type="url"]:hover,
+#contact textarea:hover {
+   font: 'opensans-semibold', sans-serif;
+  -webkit-transition: border-color 0.3s ease-in-out;
+  -moz-transition: border-color 0.3s ease-in-out;
+  transition: border-color 0.3s ease-in-out;
+  border: 1px solid #aaa;
+}
+
+#contact textarea {
+  height: 100px;
+  font: 'opensans-semibold', sans-serif;
+  max-width: 100%;
+  resize: none;
+}
+
+#contact button[type="submit"] {
+  cursor: pointer;
+  border: none;
+  background: #95A3A3;
+  color: #FFF;
+  margin: 0 0 5px;
+  padding: 10px;
+  font-size: 15px;
+}
+
+#contact button[type="submit"]:hover {
+  background: #000000;
+  -webkit-transition: background 0.3s ease-in-out;
+  -moz-transition: background 0.3s ease-in-out;
+  transition: background-color 0.3s ease-in-out;
+}
+
+#contact button[type="submit"]:active {
+  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.5);
+}
+
+
+#contact input:focus,
+#contact textarea:focus {
+  outline: 0;
+  border: 1px solid #aaa;
+}
+
+::-webkit-input-placeholder {
+  color: #888;
+}
+
+:-moz-placeholder {
+  color: #888;
+}
+
+::-moz-placeholder {
+  color: #888;
+}
+
+:-ms-input-placeholder {
+  color: #888;
+}
 
 /* ------------------------------------------------------------------ */
 /* d. Grid

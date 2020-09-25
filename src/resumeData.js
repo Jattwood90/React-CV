@@ -16,15 +16,6 @@ let resumeData = {
           "url":"https://github.com/Jattwood90",
           "className":"fa fa-github"
         },
-        {
-          "name":"twitter",
-          "url":"https://twitter.com/Monsieur_JPA",
-          "className":"fa fa-twitter"
-        },
-        {
-          "name":"javascript",
-          "className":"fa fa-js-square"
-        }
       ],
     "aboutme":"I am a self taught developer, currently employed as an analyst. I have been creating Python tools since 2019, and have broadened my knowledge by learning React.js, Django, and Flask. I love challenging myself, problem solving and creating.",
     "aboutmeCont": "When I'm not behind a laptop working on projects, you'll find me practising jujitsu, playing the bass guitar or reading a good book!",

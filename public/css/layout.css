@@ -548,9 +548,8 @@ ul#nav li.current a { color: #F06000; }
 
 #contact {
    background-image: linear-gradient(#a9d1e9, #FFFF);
-   padding-top: 96px;
-   padding-bottom: 102px;
    color: #636363;
+   padding-top: 30px;
    text-align: center;
 }
 #contact .section-head { margin-bottom: 42px; }
@@ -575,27 +574,6 @@ ul#nav li.current a { color: #F06000; }
    margin-bottom: 48px;
    color: #95A3A3;
 }
-
-#twitter {
-   margin-top: 12px;
-   padding: 0;
-}
-#twitter li {
-   margin: 6px 0px 12px 0;
-   line-height: 30px;
-}
-#twitter li span {
-   display: block;
-}
-#twitter li b a {
-   font: 13px/36px 'opensans-regular', Sans-serif;
-   color: #474747 !important;
-   border: none;
-}
-
-/* ------------------------------------------------------------------ */
-/* h. Contact Section
-/* ------------------------------------------------------------------ */
 
 /* ------------------------------------------------------------------ */
 /* i. Footer
@@ -680,5 +658,5 @@ footer .social-links li:first-child { margin-left: 0; }
    line-height: 60px;
  	border-radius: 100%;
 }
-#go-top a:hover { background-color: #0F9095; }
+#go-top a:hover { background-color: #000000; }
 
