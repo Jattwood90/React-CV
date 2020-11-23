@@ -6,11 +6,9 @@ export default class ContactUs extends Component {
     return (
       
       <section id="contact">
-      <ScrollAnimation animateIn="fadeIn" duration={2} delay={1}>
         <div className='container'>
-          <h3><a href = "mailto: joseph.p.attwood@gmail.com">Contact me!</a></h3>
+          <a href = "mailto: joseph.p.attwood@gmail.com">Contact me!</a>
         </div>
-        </ScrollAnimation>
        </section>
         );
   }
