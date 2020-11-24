@@ -8,7 +8,9 @@ export default class ContactUs extends Component {
       <section id="contact">
         <div className='container'>
           <br>
-          <h3 href = "mailto: joseph.p.attwood@gmail.com">Contact me!</h3>
+            <h3> 
+              <a href="mailto: joseph.p.attwood@gmail.com">Contact me!</a>
+            </h3>
           <br>
         </div>
        </section>
