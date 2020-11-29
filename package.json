@@ -3,13 +3,14 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@fortawesome/fontawesome-svg-core": "^1.2.30",
-    "@fortawesome/free-solid-svg-icons": "^5.14.0",
-    "@fortawesome/react-fontawesome": "^0.1.11",
+    "@fortawesome/fontawesome-svg-core": "^1.2.32",
+    "@fortawesome/free-solid-svg-icons": "^5.15.1",
+    "@fortawesome/react-fontawesome": "^0.1.13",
     "animate.css": "^4.1.1",
-    "react": "^16.6.0",
+    "file-loader": "^6.2.0",
+    "react": "^16.14.0",
     "react-animate-on-scroll": "^2.1.5",
-    "react-dom": "^16.6.0",
+    "react-dom": "^16.14.0",
     "react-scripts": "2.1.1",
     "vertical-timeline-component-react": "^1.2.4"
   },
@@ -27,5 +28,8 @@
     "not dead",
     "not ie <= 11",
     "not op_mini all"
-  ]
+  ],
+  "devDependencies": {
+    "url-loader": "^4.1.1"
+  }
 }

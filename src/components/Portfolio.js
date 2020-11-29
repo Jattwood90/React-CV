@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import ScrollAnimation from 'react-animate-on-scroll';
 
+
 export default class Porfolio extends Component {
   render() {
     let resumeData = this.props.resumeData;
@@ -16,7 +17,7 @@ export default class Porfolio extends Component {
                 return(
                   <div className="columns portfolio-item">
                     <div className="item-wrap">
-                        <img src={`${item.imgurl}`} className="port-img"/>
+                        <img src={`${item.imgurl}`} className="port-img" alt=''/>
                           <div className="portfolio-item-meta">
                             <br/>
                             <h5>{item.name}</h5>

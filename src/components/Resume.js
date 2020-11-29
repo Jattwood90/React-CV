@@ -16,7 +16,7 @@ export default  class Resume extends Component {
     				<li><img src="images/react.png"/></li>
     				<li><img src="images/javascript.png"/></li>
             <li><img src="images/aws.png"/></li>
-            <li><img src="images/sql.png"/></li>
+            <li><img src="images/postgres.png"/></li>
 	        </ul>
           </ScrollAnimation>
       </section>

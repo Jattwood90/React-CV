@@ -64,11 +64,11 @@ let resumeData = {
         "className":"fa fa-github"
       },
       {
-        "name":"Flask CV App",
-        "description":"First version of CV site, created using Flask, SMTP, and ReCaptcha for the email form. Uploaded to AWS via Zappa.",
-        "imgurl":"images/portfolio/flask.jpeg",
+        "name":"Django Estate Agent Site",
+        "description":"Fully functioning website with front and back end. Created using Django, PostgresSQL, Digital Ocean cloud storage, and Nginx. Live site link on Github!",
+        "imgurl":"images/portfolio/django_logo.png",
         "icon":"github",
-        "link":"https://github.com/Jattwood90/Flask_CV_repo",
+        "link":"https://github.com/Jattwood90/DjangoHouseApp",
         "className":"fa fa-github"
       },
       {
@@ -90,12 +90,10 @@ let resumeData = {
     ],
     "testimonials":[
       {
-        "description":"Be yourself; everyone else is already taken",
-        "name":"Oscar Wilde"
+        "description":""
       },
       {
-        "description":"Always remember that you are absolutely unique. Just like everyone else",
-        "name":"Margaret Mead"
+        "description":""
       }
     ]
   }
