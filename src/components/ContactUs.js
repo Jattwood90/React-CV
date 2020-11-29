@@ -7,28 +7,22 @@ export default class ContactUs extends Component {
     return (
       
       <section id="contact">
-      <ScrollAnimation animateIn="fadeIn" duration={2} delay={1}>
         <div className='container'>
+<<<<<<< HEAD
             
               <p>
                 <a href="mailto:joedevattwood@gmail.com"><img src='images/email.png'/></a>
               </p>
           
+=======
+          <br>
+            <h3> 
+              <a href="mailto: joseph.p.attwood@gmail.com">Contact me!</a>
+            </h3>
+          <br>
+>>>>>>> bb43404a4a7cd9286f80c0ccc674dbdf247c9f04
         </div>
-          <div className="row section-head">
-            <div className="ten columns">
-      </div>
-      </div>
-     
-          <div className="row">
-            <aside className="eigth columns footer-widgets">
-              <div className="widget">
-
-              </div>
-            </aside>
-          </div>
-        </ScrollAnimation>
-        </section>
+       </section>
         );
   }
 }

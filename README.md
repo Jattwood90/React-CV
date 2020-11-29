@@ -1,4 +1,4 @@
 # React-CV
 CV site made using React JS
 
-![cvpage](https://user-images.githubusercontent.com/56833060/92603439-36bc6d00-f2a7-11ea-98d5-5de70c986442.gif)
+![cvgif](https://user-images.githubusercontent.com/56833060/94292674-279b1780-ff55-11ea-833a-eb5d2f60410b.gif)
