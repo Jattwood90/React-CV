@@ -56,11 +56,11 @@ let resumeData = {
     ],
     "portfolio":[
       {
-        "name":"Django Todo List",
-        "description":"Stylised and fully responsive Python Django todo list app.",
-        "imgurl":"images/portfolio/sticky.gif",
+        "name":"YouTube Django Database",
+        "description":"Django app, that uses a YT API, and PostgresSQL to host videos.  Class based forms and models used.",
+        "imgurl":"images/portfolio/ytapp.gif",
         "icon":"github",
-        "link":"https://github.com/Jattwood90/Django-todo-app",
+        "link":"https://github.com/Jattwood90/YT_Django_App",
         "className":"fa fa-github"
       },
       {
@@ -72,11 +72,11 @@ let resumeData = {
         "className":"fa fa-github"
       },
       {
-        "name":"React CV App",
-        "description":"This portfolio site! Made using React, and hosted via AWS.",
-        "imgurl":"images/portfolio/react.gif",
+        "name":"Django Todo List",
+        "description":"Stylised and fully responsive Python Django todo list app.",
+        "imgurl":"images/portfolio/sticky.gif",
         "icon":"github",
-        "link":"https://github.com/Jattwood90/React-CV",
+        "link":"https://github.com/Jattwood90/Django-todo-app",
         "className":"fa fa-github"
       },
       {
