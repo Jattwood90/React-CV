@@ -7,9 +7,11 @@
     "@fortawesome/free-solid-svg-icons": "^5.15.1",
     "@fortawesome/react-fontawesome": "^0.1.13",
     "animate.css": "^4.1.1",
+    "bootstrap": "^4.6.0",
     "file-loader": "^6.2.0",
     "react": "^16.14.0",
     "react-animate-on-scroll": "^2.1.5",
+    "react-bootstrap": "^1.5.2",
     "react-dom": "^16.14.0",
     "react-scripts": "2.1.1",
     "vertical-timeline-component-react": "^1.2.4"

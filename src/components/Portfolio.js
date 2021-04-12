@@ -17,7 +17,7 @@ export default class Porfolio extends Component {
                 return(
                   <div className="columns portfolio-item">
                     <div className="item-wrap">
-                        <img src={`${item.imgurl}`} className="port-img" alt=''/>
+                        <img style={{border:'groove'}} src={`${item.imgurl}`} className="port-img" alt=''/>
                           <div className="portfolio-item-meta">
                             <br/>
                             <h5>{item.name}</h5>

@@ -37,24 +37,15 @@ let resumeData = {
         "Achievements":"2:1"
       }
     ],
-    "work":[
-      {
-        "CompanyName":"Sportradar",
-        "specialization":"Analyst",
-        "MonthOfLeaving":"Present",
-        "YearOfLeaving":"",
-        "Achievements": ["Line one", "line Two", "Line Three"]
-       
-      },
-      {
-        "CompanyName":"Some Company",
-        "specialization":"Some specialization",
-        "MonthOfLeaving":"Jan",
-        "YearOfLeaving":"2018",
-        "Achievements":"Some Achievements"
-      }
-    ],
     "portfolio":[
+      {
+        "name":"React/Django Meme-Generator",
+        "description":"Backend api written in Django and serialised for JSON. Frontend completed in React, using Hooks",
+        "imgurl":"images/portfolio/react-project.gif",
+        "icon":"github",
+        "link":"https://github.com/Jattwood90/MemeGen_React",
+        "className":"fa fa-github"
+      },
       {
         "name":"YouTube Django Database",
         "description":"Django app, that uses a YT API, and PostgresSQL to host videos.  Class based forms and models used.",
@@ -66,7 +57,7 @@ let resumeData = {
       {
         "name":"Django Estate Agent Site",
         "description":"Fully functioning website with front and back end. Created using Django, PostgresSQL, Digital Ocean cloud storage, and Nginx. Live site link on Github!",
-        "imgurl":"images/portfolio/django_logo.png",
+        "imgurl":"images/portfolio/django.gif",
         "icon":"github",
         "link":"https://github.com/Jattwood90/DjangoHouseApp",
         "className":"fa fa-github"
