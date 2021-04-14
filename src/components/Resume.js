@@ -12,7 +12,7 @@ export default  class Resume extends Component {
 	       <ul className="resumeGrid">
     				<li><img src='images/html.png'/></li>
     				<li><img src="images/css.jpg"/></li>
-    				<li><img src="images/python.jpeg"/></li>
+    				<li><img src="images/python.png"/></li>
     				<li><img src="images/react.png"/></li>
     				<li><img src="images/javascript.png"/></li>
             <li><img src="images/aws.png"/></li>
